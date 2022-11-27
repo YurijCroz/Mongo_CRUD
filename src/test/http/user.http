@@ -1,0 +1,59 @@
+
+# GET http://127.0.0.1:5000/api/users/63822d3cf40a0c3ff1ea3fad/posts HTTP/1.1
+
+# GET http://127.0.0.1:5000/api/users/63822d3cf40a0c3ff1ea3fad HTTP/1.1
+
+# POST http://127.0.0.1:5000/api/users HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "name": "Nikolay",
+#     "surname": "Azik",
+#     "email": "azikolya@gmail.com",
+#     "birthday": "1985-06-05",
+#     "isMale": true,
+#     "level": "beginner",
+#     "years": 1
+# }
+
+# POST http://127.0.0.1:5000/api/users/63822d3cf40a0c3ff1ea3fad/posts HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "title": "Hello Mongo",
+#     "body": "Hello Mongo, this test message super test"
+# }
+
+# DELETE http://127.0.0.1:5000/api/users/63823eab17fcf2f0603ab77b HTTP/1.1
+
+# PATCH http://127.0.0.1:5000/api/users/63822d3cf40a0c3ff1ea3fad HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "birthday": "1988-06-05",
+# }
+
+###############################################
+
+
+# POST http://127.0.0.1:5000/api/users HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "name": "test",
+#     "surname": "test",
+#     "email": "test@gmail.com",
+#     "birthday": "1985-05-06",
+#     "isMale": true,
+#     "level": "beginner",
+#     "years": 1
+# }
+
+# DELETE http://127.0.0.1:5000/api/users/6382591b2b4616e54067f868 HTTP/1.1
+
+# PATCH http://127.0.0.1:5000/api/users/6382591b2b4616e54067f868 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "birthday": "1981-01-01",
+# }

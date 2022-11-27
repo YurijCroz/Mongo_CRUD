@@ -1,0 +1,9 @@
+{
+    "development":{
+        "host": "localhost",
+        "port": 27117,
+        "database": "simple_chat_2022"
+    },
+    "test": {},
+    "production": {}
+}

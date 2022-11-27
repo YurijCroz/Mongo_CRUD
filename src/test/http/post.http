@@ -1,0 +1,29 @@
+# POST http://127.0.0.1:5000/api/posts HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "title": "Hello Mongo Test delete user",
+#     "body": "Hello Mongo, this test message super test",
+#     "userId": "63823eab17fcf2f0603ab77b"
+# }
+
+
+GET http://127.0.0.1:5000/api/posts/ HTTP/1.1
+
+# PATCH http://127.0.0.1:5000/api/posts/638231b9fd642bbcfd112f44 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "title": "Hello Mongo Test update title and text",
+#     "body": "Hello Mongo, hello update text!!!!!!!!!!"
+# }
+
+
+# DELETE http://127.0.0.1:5000/api/posts/63823185fd642bbcfd112f42 HTTP/1.1
+
+# PATCH http://127.0.0.1:5000/api/posts/638231cbfd642bbcfd112f46 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "body": "Hello Mongo, hello update only text!!!!!!!!!!"
+# }
